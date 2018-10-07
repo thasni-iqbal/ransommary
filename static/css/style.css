@@ -1,0 +1,883 @@
+ 
+/* CSS Document */
+ a.allcats{
+    background:#ebebeb !important;
+     color:#999 !important;
+     border:none !important
+}
+ .alanbaslikbg{
+    padding: 8px;
+     margin: 10px 0px;
+     background:#2BBBBC;
+     color:#fff;
+     font-size: 14px;
+     font-weight: 500
+}
+ .alanaltbaslikbg{
+    padding:4px 8px;
+     margin: 10px 0px;
+     background:#f4f4f4;
+     color:#666;
+     font-size: 12px;
+     font-weight: 400
+}
+ .contact-block{
+}
+ .contact-block-content{
+     border: 2px solid #e9e9e9;
+     padding: 25px;
+     background: #fff url(../images/bg-envelope.jpg) right bottom no-repeat;
+}
+ .contact-block-content a {
+     font-size: 14px;
+     font-weight: bold;
+     color: #3dc1ea;
+     text-transform: uppercase;
+}
+ .contact-block-content h3{
+     font-size: 23px;
+     color: #3e3e3e;
+     margin: 0;
+     font-weight: 500;
+     margin: 0 0 20px 0;
+}
+ .iletisimharita{
+    margin-bottom:20px;
+     box-shadow :-1px -1px 3px #ccc;
+}
+/*SOL AÇILIR MENÜ*/
+/*SOL AÇILIR MENÜ*/
+ #cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     list-style: none;
+     line-height: 1;
+     display: block;
+     position: relative;
+     width:100%;
+     font-size:14px;
+}
+ #cssmenu {
+     width: 100%;
+     font-size:14px;
+     color: #ffffff;
+}
+ #cssmenu ul ul {
+     display: none;
+    /*Kategorileri açık gösterir*/
+}
+ #cssmenu ul ul.list1 {
+     display: block;
+    /*Kategorileri açık gösterir*/
+}
+ #cssmenu ul ul.list2 {
+     display: none;
+    /*Kategorileri açık gösterir*/
+}
+ .align-right {
+     float: right;
+}
+ #cssmenu > ul > li > a {
+     padding: 12px 15px;
+     border-top: 1px solid #4a75ab;
+     cursor: pointer;
+     z-index: 2;
+     font-size: 14px;
+     text-decoration: none;
+     color: #fff;
+     background: #2e6a9c;
+     clear:both;
+}
+ #cssmenu > ul > li > a:hover, #cssmenu > ul > li.active > a{
+     color: #fff;
+     background: #2a6290;
+}
+ #cssmenu > ul > li.open > a {
+     border-bottom: 1px solid #ebebeb;
+}
+ #cssmenu > ul > li:last-child > a, #cssmenu > ul > li.last > a {
+     border-bottom: 0px solid #ebebeb;
+}
+ #cssmenu > ul > li > a:hover > span::after, #cssmenu > ul > li.active > a > span::after, #cssmenu > ul > li.open > a > span::after {
+     border-color: #eeeeee;
+}
+ #cssmenu ul ul li a {
+     cursor: pointer;
+     border-bottom: 1px solid #ebebeb;
+     padding: 13px 25px;
+     z-index: 1;
+     text-decoration: none;
+     font-size: 15px;
+     color: #333;
+     background: #f6f6f6;
+     margin-bottom: 1px solid #fff;
+     width:100%;
+}
+ #cssmenu ul ul li:hover > a, #cssmenu ul ul li.open > a, #cssmenu ul ul li.active > a {
+     color: #000;
+}
+ #cssmenu ul ul li:first-child > a {
+     box-shadow: none;
+}
+ #cssmenu ul ul ul li:first-child > a {
+}
+ #cssmenu ul ul ul li a {
+     padding-left: 30px;
+}
+ #cssmenu > ul > li > ul > li:last-child > a, #cssmenu > ul > li > ul > li.last > a {
+}
+ #cssmenu > ul > li > ul > li.open:last-child > a, #cssmenu > ul > li > ul > li.last.open > a {
+     border-bottom: 1px solid #32373e;
+}
+ #cssmenu > ul > li > ul > li.open:last-child > ul > li:last-child > a {
+     border-bottom: 0;
+}
+ #cssmenu ul ul li.has-sub > a::after {
+     display: block;
+     position: absolute;
+     content: "";
+     width: 5px;
+     height: 5px;
+     right: 20px;
+     z-index: 10;
+     top: 9.5px;
+     border-left: 2px solid #eeeeee;
+}
+ #cssmenu ul ul li.active > a::after, #cssmenu ul ul li.open > a::after, #cssmenu ul ul li > a:hover::after {
+     border-color: #ffffff;
+}
+ .g-firmabilgileri{
+    font-size:19px;
+     font-weight:700;
+     margin-bottom:25px;
+}
+ .g-firma{
+    font-size:16px;
+    line-height:32px;
+     margin-bottom: 5px;
+}
+ .g-firma span{
+    margin-right: 20px;
+}
+ .g-adres{
+    font-size:15px;
+     line-height:30px;
+     margin-bottom: 5px;
+}
+ .g-adres span{
+    margin-right: 20px;
+}
+ .g-telefon{
+    font-size:15px;
+     line-height:22px;
+    margin-bottom: 5px;
+}
+ .odemesipariskodu{
+    font-size:12px;
+     margin: 2px 12px;
+     text-align:center
+}
+ .odemesiparisnotu{
+    font-size:12px;
+     margin: 18px 12px;
+     text-align:center
+}
+ .odemesiparisnotu span{
+    color:cadetblue;
+     font-weight:bold
+}
+ input{
+    padding:5px;
+     width:90%;
+     font-size:12px;
+     border:1px solid #ebebeb 
+}
+ textarea{
+    padding:5px;
+     width:280px;
+     border:1px solid #ddd
+}
+ button{
+    width:150px;
+     padding:6px;
+}
+ td{
+    font-size:14px;
+     color:#666;
+     padding-right:20px;
+}
+ .sifremiunuttum{
+    margin-top:15px;
+     margin-bottom:15px;
+}
+ a{
+    color:#111;
+     text-decoration:none
+}
+ p{
+    margin-bottom: 6px;
+}
+ .iletisimformubg{
+    background: #f9f9f9;
+     border-radius: 4px;
+     padding: 20px;
+}
+ .homeform_email{
+    margin: 0px 6px;
+}
+ .homeform_btn{
+    margin: 0px 6px;
+     background: #c05000;
+     color:#fff;
+     border-radius: 2px;
+}
+ .rightPage{
+    float:left;
+}
+ .rightPageFull{
+     width:100%;
+}
+ .rightBlock{
+     width:700px;
+     float:left;
+}
+ .urunleftPage{
+     width: 190px;
+     background: #fff;
+     margin-top: 15px;
+     -webkit-border-radius: 8px 8px 8px 8px;
+     -moz-border-radius: 8px 8px 8px 8px;
+     -o-border-radius: 8px 8px 8px 8px;
+     -ms-border-radius: 8px 8px 8px 8px;
+     border-radius: 8px 8px 8px 8px;
+     box-shadow: 0px 0px 7px rgba(80, 80, 80, 0.2);
+     float: left;
+}
+ .urunleftPage ul li a{
+     font: 14px 'Titillium Web';
+     text-decoration: none;
+     color: #00458c;
+     line-height: 28px;
+     display: block;
+     text-indent: 18px;
+}
+ .urunleftPage ul li{
+     background:url("https://www.turkuazcable.com/images/liok.png") no-repeat center left 7px;
+     border-bottom: 1px solid #f1f1f1;
+}
+ .box10{
+    wiidth:160px;
+     float:left;
+     padding:6px;
+     box-shadow:0px 0px 3px #ebebeb;
+     margin:8px;
+}
+ .urunler{
+    width:210px;
+     float:left;
+     padding:6px;
+     box-shadow:0px 0px 3px #ebebeb;
+     margin-left:7px;
+     border-radius:8px;
+}
+ .menuLeft ul {
+     margin:0px;
+     padding:0px;
+     list-style:none;
+    /* Madde işaretlerini kaldırdık */
+     width:100%;
+}
+ .menuLeft li {
+     position:relative;
+}
+ .menuLeft li ul {
+     position:absolute;
+     display:none;
+     left:100%;
+     top:0px;
+     z-index: 9999;
+}
+ .menuLeft li:hover ul {
+    display:block;
+}
+ .menuLeft li a {
+     display:block;
+     border-bottom:0;
+}
+ .sayfa-baslik{
+    float: left;
+     width: 100%;
+     color: #ac1326;
+     font: 21px 'Titillium Web';
+     margin-bottom: 14px;
+     border-bottom:1px dashed #ccc;
+}
+ .kobi-hata{
+    font-size: 17px;
+     color:#b50000
+}
+ .kobi-onay{
+    font-size: 17px;
+     color: green
+}
+ .kobi-urunResimRight{
+    float:right;
+     margin-right:10px;
+     border:1px solid #ebebeb;
+     padding:4px;
+}
+ .kobi-urunresim{
+    width:80px;
+     height:80px;
+     float:left;
+     margin:4px;
+     box-shadow:0px 1px 3px #ccc;
+     padding:2px;
+}
+ .kobi-urunresim1{
+    min-width:300px;
+}
+ .kobi-urunicerik{
+    float: left;
+    width:100%;
+     line-height:22px;
+     margin-bottom:20px
+}
+ .kobi-urunicerik h2{
+    font-size: 16px;
+     font-weight: 700;
+     margin-bottom:10px;
+}
+ .kobi-haberresim{
+    width:70px;
+     height:70px;
+     padding:4px;
+     box-shadow:0px 0px 3px #ccc;
+     margin-right:8px;
+     margin-bottom:10px;
+}
+ .kobi-haberyazi{
+    line-height:26px;
+     font-weight:300;
+     font-size:14px
+}
+ .kobi-haberdetayresim{
+    float:right;
+     margin-right:10px;
+     border:1px solid #ebebeb;
+     padding:4px;
+}
+ .kobi-resim{
+    width:210px;
+     height:210px;
+}
+ .kobi-habercontent{
+    float:left;
+    /*width:700px;
+    */
+     line-height:22px;
+}
+ .kobi-baslik, .kobi-baslik a{
+    font-size:15px;
+     line-height:19px;
+     min-height:20px;
+     padding-bottom:15px;
+     font-weight:500;
+     color:#555 
+}
+ .kobi-urunbaslik{
+    margin:5px;
+    color:#666;
+     font-size:15px;
+     text-align:center;
+     font-weight:700;
+}
+ .kobi-referansresim{
+    width:160px;
+     height:135px;
+}
+ .kobi-resimlist{
+    width:260px;
+     height:200px;
+}
+ .kobi-sayfacontentbaslik{
+    font-size:22px;
+     margin-bottom:14px;
+}
+ .kobi-sayfayazi span{
+    float:right
+}
+ .kobi-sayfabaslik{
+    font-size:22px;
+     margin-bottom:14px;
+}
+ .kobi-sayfahomespan{
+    margin-right:6px;
+}
+ .s-medya{
+    float:left;
+     width:50px;
+}
+ .kobi-ilanresim{
+    width:70px;
+     border: 1px solid #ebebeb;
+     padding: 3px;
+     float: left;
+     margin-right: 5px;
+}
+/*TAB MENU*/
+/* Tab */
+ ul#tabs {
+     list-style-type: none;
+     margin: 20px 0 5px 0;
+     padding: 0;
+     text-align: left;
+}
+ ul#tabs li {
+     display: inline-block;
+     background-color: #ebebeb;
+     border-bottom: solid 5px #ddd;
+     padding: 5px 20px;
+     margin-bottom: 4px;
+     color: #333;
+     cursor: pointer;
+}
+ ul#tabs li:hover {
+     background-color: #ddd;
+}
+ ul#tabs li.active {
+     background-color: #ddd;
+}
+ ul#tab {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+}
+ ul#tab li {
+     display: none;
+     padding: 30px;
+     border: solid 1px #ebebeb;
+}
+ ul#tab li.active {
+     display: block;
+}
+ ul#tab li h2 {
+     font-weight: 400;
+     margin-bottom: 30px;
+     padding-bottom: 5px;
+     border-bottom: solid 5px #32c896;
+}
+/*SEARCH*/
+ .temaAramaForm{
+    margin:10px 0px;
+     border-bottom:1px dashed #ccc;
+     padding:20px 0px;
+}
+ .temaSearch{
+     border-top: 1px solid #ebebeb;
+     margin-top: 15px;
+     margin-bottom: 30px;
+}
+ .temaSearch ul {
+    margin:0px;
+     padding:0px;
+     list-style:none;
+     margin-left: 15px;
+     border-bottom:1px solid #f4f4f4
+}
+ .temaSearch ul li{
+    padding:10px 0px;
+     border-bottom: 1px solid #ebebeb;
+}
+ .urunbaslik{
+    padding: 10px 0px;
+}
+ #abPopup{
+    display: none;
+     position: absolute;
+     z-index: 9999;
+     top:50px
+}
+/* ================================================ */
+/* ! ab-ust tanimlamalari */
+/* ================================================ */
+ #ab-ust{
+    width: 540px;
+     height: 48px;
+     overflow: hidden;
+     margin: 0;
+     padding: 25px 25px 0 25px;
+     background: url(https://www.turkuazcable.com/resim/ust.png) left top no-repeat;
+}
+ a.ab-kapat{
+    width: 13px;
+     height: 15px;
+     overflow: hidden;
+     margin: 4px 0 0 5px ;
+     padding:0;
+     display: inline-block;
+     text-indent: -9999px;
+     background: url(https://www.turkuazcable.com/resim/kapat2.png) left top no-repeat;
+     float: left;
+}
+ a.ab-kapat:hover{
+     background: url(https://www.turkuazcable.com/resim/kapat.png) left top no-repeat;
+}
+ h2#ab-baslik{
+    width: 550px;
+     font-size: 14px;
+     font-family: 'Verdana',serif;
+     font-weight: normal;
+     line-height: 17px;
+     overflow: hidden;
+     margin: 4px 0 0 5px;
+     padding:10px 0 0 0;
+     display: inline-block;
+     text-align: center;
+}
+/* ================================================ */
+/* ! ab-orta tanimlamalari */
+/* ================================================ */
+ #ab-orta{
+    width: 410px;
+     overflow: hidden;
+     margin: 0px 0 0 0;
+     padding:30px;
+     background: #fff;
+     border:2px solid #666;
+     box-shadow:0px 3px 9px #000 
+}
+ #ab-orta p{
+    width: 570px;
+     overflow: hidden;
+     margin: 0;
+     padding: 10px ;
+    font-family: 'Verdana',serif;
+     font-size: 12px;
+     line-height: 16px;
+     color: #333 ;
+     text-align: justify;
+}
+ .iletisimTalepBtn{
+}
+ .iletisimTalepBtnresimli{
+    position: fixed;
+     top:15%;
+     left:0px;
+     z-index:200;
+     height:170px;
+     width:40px;
+     background:#C00;
+     border-right:4px solid #900;
+     border-radius:0px 4px 4px 0px;
+     color:#fff;
+}
+ .iletisimTalepBtnresimli a{
+     text-decoration: none;
+     transform: rotate(-90deg);
+     width:120px;
+     transform-origin: 0 0;
+     top:80%;
+     float: left;
+     display: inline-block;
+     position:absolute;
+     margin-left:7px;
+     color:#fff !important;
+}
+ .iletisimTalepBtn a{
+    text-decoration: none;
+     color:#333;
+}
+ #ab-orta p a:hover{
+    color: #cd1821;
+     text-decoration: none;
+}
+ #ab-orta p img{
+    width:160px;
+     overflow: hidden;
+     margin: 0;
+     padding: 0 10px 10px 0;
+     float: left;
+}
+/* ================================================ */
+/* ! ab-alt tanimlamalari */
+/* ================================================ */
+ #ab-alt{
+    width: 600px;
+     height: 52px;
+     overflow: hidden;
+     margin: 0;
+     padding: 0 25px;
+     background: url(https://www.turkuazcable.com/resim/alt.png) left top repeat-y;
+}
+ #ab-alt p{
+    width: 600px;
+     height: 42px;
+     margin: 0;
+     padding: 10px 0 0 0 ;
+     font-family: 'Verdana',serif;
+    text-align: center;
+     font-size: 11px;
+     line-height: 15px;
+     color: #333;
+}
+ #ab-alt a{
+    display: inline-block;
+     color: #333;
+     text-decoration: none;
+     float: none;
+}
+ #ab-alt a:hover{
+    color: #cd1821;
+}
+ .accordion-toggle {
+    cursor: pointer;
+     padding:10px 15px;
+     font-size:16px;
+     background:#f7f9fb;
+     margin-bottom:3px;
+}
+ .accordion-content {
+    display: none;
+     padding:10px 15px;
+}
+ .accordion-content.default {
+    display: block;
+}
+ #topContainer {
+    background:#222;
+    padding:80px 0 40px;
+    border-bottom:1px solid #999;
+    text-align:center;
+}
+ #topContainer h1 {
+    color:#eee;
+    padding:24px 0 16px;
+    margin:0;
+    font-size:52px;
+    text-shadow: 0px 0px 4px #000;
+    filter:dropshadow(color=#000, offx=0, offy=0);
+}
+ #topContainer a {
+    color:#eee;
+    font-size:18px;
+    display:block;
+    background:#37AFEB;
+    width:200px;
+    padding:8px 16px;
+    margin:20px auto;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    -moz-box-shadow: 0 0 4px #000;
+    -webkit-box-shadow: 0 0 4px #000;
+    box-shadow: 0 0 4px #000;
+}
+ #topContainer a:hover {
+    background:#F16529;
+}
+ #topContainer p {
+    color:#eee;
+}
+ #topContainer span#notice {
+    font-style:italic;
+    font-size:11px;
+    color:#999;
+}
+ #mainContainer {
+     width:900px;
+     margin:20px auto;
+     padding:20px;
+     background:#fff;
+     border:1px solid #e0e0e0;
+}
+ .g-recaptcha{
+    margin-top:12px;
+}
+ .leftPagemenu{
+     margin-top:2px;
+}
+ .leftPagemenu ul {
+     text-align: left;
+     display: inline;
+     margin: 0px;
+     list-style: none;
+     padding: 0px;
+}
+ .leftPagemenu ul li {
+     padding: 3px;
+}
+ .leftPagemenu ul li:hover {
+     color: #333;
+}
+ .leftPagemenu ul li ul {
+     padding: 0;
+     left: 0;
+     width: 100%;
+     -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+     box-shadow: none;
+     display: none;
+     opacity: 0;
+     visibility: hidden;
+     background: transparent;
+     border: none;
+     -webkit-transiton: opacity 0.2s;
+     -moz-transition: opacity 0.2s;
+     -ms-transition: opacity 0.2s;
+     -o-transition: opacity 0.2s;
+     -transition: opacity 0.2s;
+}
+ .leftPagemenu ul li ul li {
+     padding: 0px;
+     display: block;
+     color: #333;
+     background: transparent;
+     border: none;
+}
+ .leftPagemenu ul li ul li a{
+    background: transparent;
+     padding-left: 20px;
+}
+ .leftPagemenu ul li ul li:hover {
+     background: transparent;
+     border: none
+}
+ .leftPagemenu ul li:hover ul {
+     display: block;
+     opacity: 1;
+     visibility: visible;
+}
+ h1, h2, h3, h4, h5, h6 {
+     margin: 0;
+     font-family: inherit;
+     font-weight: bold;
+     color: inherit;
+     text-rendering: optimizelegibility;
+}
+ h4 {
+     font-size: 14px;
+}
+ h4, h5, h6 {
+     line-height: 18px;
+}
+ .close {
+     float: right;
+     margin-right:15px;
+     font-size: 17px;
+     font-weight: bold;
+     line-height: 18px;
+     color: #000000;
+     text-shadow: 0 1px 0 #ffffff;
+     opacity: 0.2;
+     filter: alpha(opacity=20);
+}
+ .close:hover {
+     color: #000000;
+     text-decoration: none;
+     opacity: 0.4;
+     filter: alpha(opacity=40);
+     cursor: pointer;
+}
+ .alert {
+     padding: 8px 35px 8px 14px;
+     margin-bottom: 18px;
+     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+     background-color: #fcf8e3;
+     border: 1px solid #fbeed5;
+     -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+     border-radius: 4px;
+     color: #c09853;
+}
+ .alert-heading {
+     color: inherit;
+}
+ .alert .close {
+     position: relative;
+     top: -2px;
+     right: -21px;
+     line-height: 18px;
+}
+ .alert-success {
+     background-color: #dff0d8;
+     border-color: #d6e9c6;
+     color: #468847;
+}
+ .alert-danger, .alert-error {
+     background-color: #f2dede;
+     border-color: #eed3d7;
+     color: #b94a48;
+}
+ .alert-info {
+     background-color: #d9edf7;
+     border-color: #bce8f1;
+     color: #3a87ad;
+}
+ .alert-block {
+     padding-top: 14px;
+     padding-bottom: 14px;
+}
+ .alert-block > p, .alert-block > ul {
+     margin-bottom: 0;
+}
+ .alert-block p + p {
+     margin-top: 5px;
+}
+ .danismanbilgi{
+    font-size:14px;
+}
+ .danismantel{
+     background: #fff;
+     border: 1px solid #e5e8e8;
+     box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+     font-size: 13px;
+     color: #4a4a4a;
+     padding: 15px
+}
+ .danismantel span{
+    float:right;
+     font-size:13px;
+}
+ .gsmgoster{
+     padding: 7px 0px;
+     border-bottom:1px solid #ebebeb
+}
+ .telgoster{
+     padding-top: 7px;
+}
+ .firmalogo{
+    margin-bottom:10px;
+     border-bottom:1px solid #ebebeb;
+}
+ .danismanlogo{
+    padding: 7px;
+     border-bottom:1px solid #ebebeb;
+     margin-top:25px;
+}
+ .danismanlogo img{
+    width:200px;
+     height:60px;
+     margin-bottom: 10px;
+}
+ .aktivasyonsonuc{
+    font-size:24px;
+     margin: 20px 0px;
+     text-align: center;
+}
+ .randevuformu{
+    padding: 20px;
+     background:#fbfbfd;
+     border-radius:10px;
+     box-shadow: 0px 4px 7px #ddd;
+     border: 1px solid #e1e1e1e1;
+}
+ .beniaraformu{
+    padding: 40px;
+     background:#f9f9f9;
+     border-radius:10px;
+     box-shadow: 0px 4px 7px #ddd;
+     border: 1px solid #e1e1e1e1;
+}
+ 

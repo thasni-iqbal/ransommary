@@ -1,0 +1,54 @@
+{% extends 'products/base.html' %}
+{% load static %}
+{% block content %}
+<section class="inner-banner2 clearfix" style="display:none">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div style="font-size:25px; font-weight:normal;color:#fff; text-align:left; text-shadow:0px -1px 1px #000; padding-top:15px; margin-left:-15px;">
+                    <div class="container">Products</div>
+                </div>
+                <div style="font-size:14px;font-style:italic;"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="page-banner-section mc-breadcrumb inner-banner2">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="row">
+                    <h2 class="h2-breadcrumb">
+                        <div class="container">Products</div>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<style>
+    #cssmenu ul>li>ul {
+        display: none;
+    }
+</style>
+<section class="padding-vertical-30">
+    <div class="container">
+        <div class="row">
+            {% include 'products/partials/products_sidebar.html' %}
+            <div class="col-md-9 ">
+                <div class="col-xs-12">
+                	{% for brand in brands %}
+                    <div class="col-md-3 col-xs-6">
+                        <img src="{{ brand.image.url }}" class="img-responsive brand__image">
+                    </div>
+                    {% if forloop.counter|divisibleby:4 and not forloop.counter == 1  %}
+                        <div style="clear:both"></div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% include 'products/partials/contact_us.html' %}
+{% endblock %}

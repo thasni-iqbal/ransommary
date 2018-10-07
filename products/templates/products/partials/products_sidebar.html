@@ -1,0 +1,21 @@
+<div class="col-md-3 blockmargin"> 
+    <div class="sub-content">
+        <ul class="sub-ul">
+            <li class="sub-li">
+                <div class="sub-licontent">
+                    <p>Products</p>
+                    <i class="fa fa-angle-down fa-2x color-white icom-paddingtop5" style="float:right; margin-right:15px;"></i>
+                </div>
+            </li>
+            <div id="cssmenu">
+                <ul>
+                {% for category in categories %}
+                    <li>
+                        <a id="a31" href="{% url 'category-detail' category.slug %}">{{ category.name }}<span style="float:right; margin-right:5px;"></span></a>
+                    </li>
+                 {% endfor %}  
+                </ul>
+            </div>
+        </ul>
+    </div>
+</div>

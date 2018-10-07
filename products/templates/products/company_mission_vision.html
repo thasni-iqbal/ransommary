@@ -1,0 +1,68 @@
+{% extends 'products/base.html' %}
+{% load static %}
+{% block content %}
+	<section class="inner-banner2 clearfix" style="display:none">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div style="font-size:25px; font-weight:normal;color:#fff; text-align:left; text-shadow:0px -1px 1px #000; padding-top:15px; margin-left:-15px;">
+						<div class="container">Company Profile</div>                    </div>
+						<div style="font-size:14px;font-style:italic;"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<style>
+		.mc-breadcrumb{background:#f4f4f4 url({% static 'images/sayfalar/mission.jpg' %}) bottom; padding:20px 2px; color:#ffffff; background-size:cover;}
+		h2.h2-breadcrumb{font-size:34px; text-align:left; font-weight:normal;color:#ffffff; font-weight:500; padding:35px 0px;}
+		</style>
+		<section class="page-banner-section mc-breadcrumb">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<h2 class="h2-breadcrumb">Mission - Vision</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="padding-vertical-30">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 blockmargin"> <div class="sub-content">
+						<ul class="sub-ul">
+							<li class="sub-li">
+								<div class="sub-licontent">
+									<p>Corporate</p>
+									<i class="fa fa-angle-down fa-2x color-white icom-paddingtop5" style="float:right; margin-right:15px;"></i>
+								</div>
+							</li>
+							<div id="cssmenu">
+								<ul>
+									<li><a id="a88" href="{% url 'company-profile' %}">Company Profile <span style="float:right; margin-right:5px;"><i class="fa fa-angle-down" aria-hidden="true"></i></span></a><div style="clear:both"></div>
+									</li><li><a id="a89" href="{% url 'company-mission-vision' %}">Mission - Vision <span style="float:right; margin-right:5px;"><i class="fa fa-angle-down" aria-hidden="true"></i></span></a><div style="clear:both"></div>
+								</li>
+							</ul>
+						</div>
+					</ul>
+					</div><div style="clear:both"></div>
+					<div class="contact-block">
+						<div class="contact-block-content">
+							<h3>Do you have any questions?</h3>
+							<p>You can contact us for all your questions.</p><a href="contact-us.html">Contact Us<i class="fa fa-angle-double-right"></i></a>
+						</div>
+					</div></div>
+					<div class="col-md-9 ">
+						<div class="rightPage">
+							<div class="kobi-sayfabaslik">Mission - Vision</div>
+							<div class="detailText"><big><strong>Our Mission</strong></big><br>
+								Our mission is to respond to our customers' communication cable needs in a fast, reliable way and provide services by our flexible, dynamic structure to meet unconditional customer satisfaction.<br>
+								<br>
+								<big><strong>Our Vision</strong></big><br>
+							Our vision is to be the most qualified, technologically sufficient telecommunication cable manufacturer and to be a well-known company by its quality and technology.</div>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+				</div></div>
+			</section>
+			{% include 'products/partials/contact_us.html' %}
+		{% endblock %}

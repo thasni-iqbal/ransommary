@@ -1,0 +1,213 @@
+ .ilanlisteblok {
+     padding-bott: 10px;
+     height: 65px;
+     margin-bottom: 10px;
+     border-bottom: 1px solid #ebebeb
+ }
+ 
+ .ilanblokresim {
+     float: left;
+     width: 70px;
+     margin-right: 30px;
+ }
+ 
+ .aramabaslik {
+     padding: 10px 0px;
+     color: #444;
+     margin: 10px 0px;
+ }
+ 
+ .arama-form {
+     font-size: 15px;
+     background: #fff;
+     padding: 7px;
+
+ }
+ 
+ .aramaformhome {
+     margin-left: auto;
+     margin-right: auto;
+     padding: 10px;
+     margin-top: 2%;
+     color: #333
+ }
+ 
+ .aramaformhome .select2-container--default .select2-selection--single {
+     height: 40px;
+     border-radius: 2px;
+     width: 182px;
+     position: relative
+ }
+ 
+ .aramaformhome .select2-container--default .select2-selection--single .select2-selection__rendered {
+     line-height: 38px
+ }
+ 
+ .aramaformhome .select2-container--default .select2-selection--single .select2-selection__arrow {
+     height: 38px;
+ }
+ 
+ .sbmthome {
+     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f1e767+0,f9d759+100 */
+     background: #f1e767;
+     /* Old browsers */
+     background: -moz-linear-gradient(top, #f1e767 0%, #f9d759 100%);
+     /* FF3.6-15 */
+     background: -webkit-linear-gradient(top, #f1e767 0%, #f9d759 100%);
+     /* Chrome10-25,Safari5.1-6 */
+     background: linear-gradient(to bottom, #f1e767 0%, #f9d759 100%);
+     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#f9d759', GradientType=0);
+     /* IE6-9 */
+     color: #333;
+     border: none;
+     margin-left: 20px;
+ }
+ 
+ .sbmthome a {
+     color: #000000;
+     color: #333 !important;
+ }
+ 
+ .aramahomeselect {
+     margin-right: 5px;
+ }
+ 
+ .sbmt {
+     background: -webkit-linear-gradient(top, #94c71b 0%, #89bc17 50%, #639e0d 100%);
+     background: -moz-linear-gradient(top, #94c71b 0%, #89bc17 50%, #639e0d 100%);
+     color: #fff;
+     border: none;
+     width: 123px;
+     height: 40px
+ }
+ 
+ .select2-dropdown {
+     width: 200px !important;
+ }
+ 
+ .secimscroll {
+     max-height: 150px;
+     overflow-x: visible;
+     overflow-y: auto;
+ }
+ 
+ .ozellik-baslik {
+     padding: 10px;
+     font-size: 14px;
+     font-weight: 600;
+     border-bottom: 1px dashed #ebebeb;
+     margin-bottom: 10px;
+     color: #b53c60
+ }
+ 
+ .ozellik-baslik-strong {
+     padding: 10px;
+     font-size: 16px;
+     font-weight: 600;
+     border-bottom: 1px solid #ebebeb;
+     margin-bottom: 20px;
+     margin-top: 12px;
+ }
+ 
+ .ilanlisteblok .table tr td {
+     border-bottom-width: 1px;
+     border-bottom-style: dotted;
+     border-bottom-color: #CCC;
+     padding: 5px
+ }
+ /* listele.php */
+ 
+ .aramatext {
+     width: 100%;
+     margin-top: 15px;
+     margin-bottom: 4px;
+ }
+ 
+ .liste {
+     padding: 0;
+     background-color: #fff;
+     border-radius: 3px;
+     box-shadow: 0 1px 1px rgba(0, 0, 0, .15);
+     padding: 10px 0;
+     margin: 0 0 15px 0;
+     font-size: 14px;
+ }
+ 
+ .liste .liste-resim {
+     padding: 5px 10px;
+     opacity: 1;
+     -webkit-transition-duration: 0.4s;
+     -moz-transition-duration: 0.4s;
+     transition-duration: 0.4s;
+ }
+ 
+ .liste .liste-resim a img {
+     width: 100%
+ }
+ 
+ .liste .liste-ilan-bilgi .liste-lokasyon {
+     color: #777
+ }
+ 
+ .liste .liste-ilan-bilgi .liste-durum {}
+ 
+ .liste .liste-ilan-bilgi {
+     margin-bottom: 10px
+ }
+ 
+ .liste .liste-durum {
+     margin-bottom: 6px;
+ }
+ 
+ .liste .liste-baslik {
+     margin-bottom: 2px;
+     font-size: 16px;
+     font-weight: 500;
+ }
+ 
+ .liste .liste-lokasyon {
+     margin-bottom: 13px
+ }
+ 
+ .liste-ilan-bilgi .ilan-liste-fiyat {
+     background: #50555d;
+     color: #fff;
+     padding: 8px 6px
+ }
+ 
+ .liste-ilan-bilgi .liste-ikonlar {
+     background: #f9f9f9;
+     border: solid 1px #eee;
+     padding: 7px 5px
+ }
+ 
+ .liste-ilan-incele a i {
+     font-size: 32px;
+     padding: 65px 0 0 0;
+     opacity: 0.3;
+     -webkit-transition-duration: 0.4s;
+     -moz-transition-duration: 0.4s;
+     transition-duration: 0.4s;
+ }
+ 
+ .liste:hover .liste-ilan-incele a i {
+     opacity: 1;
+ }
+ 
+ .liste:hover .liste-resim {
+     opacity: 0.8;
+ }
+ 
+ .danismanbilgi {
+     background: #fff;
+     margin-bottom: 15px;
+ }
+ 
+ .danismanfoto {
+     max-width: 250px
+ }
+ 
+ .select2-container {
+     width: 100% !important
+ }

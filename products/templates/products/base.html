@@ -1,0 +1,122 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Ransom Mary Limited</title>
+    <meta name="keywords" content="turkuaz cable" />
+    <meta name="description" content="Turkuaz Cable Inc. has been a leading telecommunication cables manufacturer, serving both to the domestic and international markets, since 2000." />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <base href="">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="{% static 'js/popModal.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.modal.min.js' %}"></script>
+    <script src="{% static 'js/jquery.simplePagination.js' %}"></script>
+    <script src="{% static 'js/tabs.js' %}"></script>
+    <script src="{% static 'js/popup.js' %}" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/1.4.5/numeral.min.js"></script>
+    <script src="{% static 'js/jquery.form-validator.js' %}"></script>
+    <script src="{% static 'js/kredihesapla.js' %}"></script>
+    <script src="{% static 'js/lightbox.js' %}"></script>
+    <script src="{% static 'js/lightslider.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap-datepicker.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap-datepicker.tr.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.cookie.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/select2.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.steps.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.takvim.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/orders.js' %}"></script>
+    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js"></script>
+    <!-- jPList core js and css  -->
+    <link href="{% static 'js/maps/assets/img/common/favicon.png' %}" rel="shortcut icon" />
+    <link href="{% static 'js/maps/assets/css/normalize.css" rel="stylesheet" type="text.css' %}" />
+    <link href="{% static 'js/maps/assets/css/styles.css" rel="stylesheet" type="text.css' %}" />
+    <link href="{% static 'js/maps/css/jplist.core.min.css" rel="stylesheet" type="text.css' %}" />
+    <script src="{% static 'js/maps/js/jplist.core.min.js' %}"></script>
+    <!-- jPList Google Maps Bundle -->
+    <script src="{% static 'js/maps/js/jplist.store-locator-bundle.min.js' %}"></script>
+    <!--<link href="{% static 'js/maps/css/jplist.store-locator-bundle.min.css" rel="stylesheet" type="text.css' %}" />-->
+    <!-- jPlist history bundle -->
+    <link href="{% static 'js/maps/css/jplist.history-bundle.min.css" rel="stylesheet" type="text.css' %}" />
+    <script src="{% static 'js/maps/js/jplist.history-bundle.min.js' %}"></script>
+    <!-- jPList sort bundle -->
+    <script src="{% static 'js/maps/js/jplist.sort-bundle.min.js' %}"></script>
+    <!-- jPList pagination bundle -->
+    <link href="{% static 'js/maps/css/jplist.pagination-bundle.min.css" rel="stylesheet" type="text.css' %}" />
+    <script src="{% static 'js/maps/js/jplist.pagination-bundle.min.js' %}"></script>
+    <!-- jPlist toggle filters bundle -->
+    <link href="{% static 'js/maps/css/jplist.filter-toggle-bundle.min.css" rel="stylesheet" type="text.css' %}" />
+    <script src="{% static 'js/maps/js/jplist.filter-toggle-bundle.min.js' %}"></script>
+    <!-- google maps -->
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDkn7Ofq-CL4bqRAJOyrUXMgXrz1OzWFQk&libraries=places,geometry"></script>
+    <!-- jPList start -->
+    <link href="{% static 'css/takvim.css' %}" rel="stylesheet">
+    <script src="{% static 'js/jquery.DOMWindow.js' %}"></script>
+    <link href="{% static 'css/simplePagination.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/popup.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/form.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/ilan.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/popModal.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/lightbox.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/bootstrap-datepicker.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="{% static 'css/lightslider.css' %}" rel="stylesheet">
+    <link href="{% static 'css/jquery.modal.css" type="text.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/jquery.modal.theme-xenon.css" type="text.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/jquery.modal.theme-atlant.css" type="text.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/select2.css" type="text.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/jquery.steps.css" type="text.css' %}" rel="stylesheet" />
+    <link href="{% static 'websy/css/bootstrap.min.css" rel="stylesheet' %}">
+    <link rel="stylesheet" href="{% static 'websy/css/animate.min.css' %}">
+    <link rel="stylesheet" href="{% static 'websy/vendors/owlcarousel/owl.carousel.css' %}">
+    <link rel="stylesheet" href="{% static 'websy/vendors/revolution/css/settings.css' %}">
+    <link rel="stylesheet" href="{% static 'websy/vendors/revolution/css/layers.css' %}">
+    <link rel="stylesheet" href="{% static 'websy/vendors/revolution/css/navigation.css' %}">
+    <link rel="stylesheet" href="{% static 'websy/vendors/jquery-ui-1.11.4/jquery-ui.min.css' %}">
+    <link rel="stylesheet" href="{% static 'websy/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'websy/css/responsive.css' %}">
+    <link rel="stylesheet" href="{% static 'websy/style.css' %}">
+    <link rel="stylesheet" href="{% static 'websy/customize.css' %}">
+    <link rel="apple-touch-icon" sizes="57x57" href="{% static 'images/favicon/apple-icon-57x57.png' %}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{% static 'images/favicon/apple-icon-60x60.png' %}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{% static 'images/favicon/apple-icon-72x72.png' %}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{% static 'images/favicon/apple-icon-76x76.png' %}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{% static 'images/favicon/apple-icon-114x114.png' %}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{% static 'images/favicon/apple-icon-120x120.png' %}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{% static 'images/favicon/apple-icon-144x144.png' %}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{% static 'images/favicon/apple-icon-152x152.png' %}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/favicon/apple-icon-180x180.png' %}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{% static 'images/favicon/android-icon-192x192.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/favicon/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{% static 'images/favicon/favicon-96x96.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/favicon/favicon-16x16.png' %}">
+    <link rel="manifest" href="{% static 'images/favicon/manifest.json' %}">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700&amp;subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+{% include 'products/header.html' %}
+{% block content %}
+{% endblock %}
+{% include 'products/footer.html' %}
+{% block styles %}
+<script src="{% static 'websy/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'websy/vendors/revolution/js/jquery.themepunch.revolution.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'websy/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'websy/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'websy/vendors/revolution/js/extensions/revolution.extension.navigation.min.js' %}"></script>
+<script src="{% static 'websy/js/jquery.form.js' %}"></script>
+<script src="{% static 'websy/js/jquery.validate.min.js' %}"></script>
+<script src="{% static 'websy/js/contact.js' %}"></script>
+<script src="{% static 'websy/vendors/owlcarousel/owl.carousel.min.js' %}"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTI1BZJKFCeJ8g9O01CMZ4QvVCfdPYkrE"></script>
+<script src="{% static 'websy/js/gmaps.min.js' %}"></script>
+<script src="{% static 'websy/js/imagelightbox.min.js' %}"></script>
+<script src="{% static 'websy/js/theme.js' %}"></script>
+<script src="{% static 'websy/js/custom_sliders.js' %}"></script>
+{% endblock %}
+</body>

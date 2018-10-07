@@ -1,0 +1,154 @@
+/*/
+.mavitmTakvim{width:250px; font-size:12px; background-color:#FFF; position: absolute; z-index: 99999;}
+.mavitmTakvim span, .takvimControl{cursor: pointer;}
+.mavitmTakvim table{width: 100%;border-collapse: collapse; border-spacing: 0;}
+.mavitmTakvim .takvimGunleri{ border-left:1px solid #CCC;}
+.mavitmTakvim .takvimGunleri th{ border-bottom: 1px solid #CCC; border-right: 1px solid #CCC; background-color:#009; color:#FFF; padding:5px;}
+.mavitmTakvim .takvimGunleri td{border-bottom: 1px solid #CCC; border-right: 1px solid #CCC; text-align:center;}
+.mavitmTakvim .takvimGunleri td span{padding: 5px; display: block;}
+.mavitmTakvim .takvimGunleri td span.izinsiz{background-color:#CCC; color:#666; cursor:default !important;}
+.mavitmTakvim .takvimGunleri td span.izinli:hover{background-color:#069; color:#FFF;}
+.mavitmTakvim .takvimHead{padding:3px; height:30px; background-color:#CCC;}
+.mavitmTakvim .takvimHead .takvimgeri{ float:left; margin-right:5px; margin-top:8px;}
+.mavitmTakvim .takvimHead .takvimileri{ float:right; margin-top:8px;}
+.mavitmTakvim .takvimHead select{-moz-border-radius: 5px;-webkit-border-radius:5px;border-radius:5px; padding:3px; float:left; border:1px solid #CCC; width:80px;}
+.mavitmTakvim .takvimFooter{height:25px; padding:4px; background-color:#E1E1E1;}
+.mavitmTakvim .takvimFooter .bugunuYaz{float:left;}
+.mavitmTakvim .takvimFooter .takvimKapat{float:right;}
+/**/
+
+/*---END---*/
+.mavitmTakvim{width:300px; padding: 12px; font-size:12px; background-color:#FFF; position: absolute; z-index: 99999; border: 1px solid #dddddd; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);}
+.mavitmTakvim span, .takvimControl{cursor: pointer;}
+.mavitmTakvim table{width: 100%;border-collapse: collapse; border-spacing: 0;}
+.mavitmTakvim .takvimHead, .mavitmTakvim .takvimFooter{
+    height: 35px;
+    padding:5px 8px;
+    background: #ebe9f9;
+    
+}
+.mavitmTakvim .takvimHead .takvimControl, .mavitmTakvim .takvimFooter .takvimControl{width: 50px; float: left; font-size: 11px; font-weight: bold; padding-top: 6px; }
+.mavitmTakvim .takvimHead .takvimileri, .mavitmTakvim .takvimFooter .takvimKapat{float: right; text-align: right;}
+.mavitmTakvim .takvimHead .mavitmSelectGroup{width: 130px; float: left;}
+.mavitmTakvim .takvimHead .mavitmSelectGroup select{float: left; width: 45%; padding:3px; float:left; border:1px solid #CCC;}
+.mavitmTakvim .takvimHead .mavitmSelectGroup select:last-child{float: right;}
+.mavitmTakvim .takvimHead{-webkit-border-radius: 5px 5px 0px 0px; border-radius: 5px 5px 0px 0px; }
+.mavitmTakvim .takvimFooter{-webkit-border-radius: 0px 0px 5px 5px;   border-radius: 0px 0px 5px 5px; }
+.mavitmTakvim .takvimGunleri{border-left: 1px solid #CCCCCC;}
+.mavitmTakvim .takvimGunleri th{ border-bottom: 1px solid #CCCCCC; border-right: 1px solid #CCC; background-color:#EBEBEB; color:#000; text-align: center; padding:5px;}
+.mavitmTakvim .takvimGunleri td{border-bottom: 1px solid #CCC; border-right: 1px solid #CCC; text-align:center;}
+.mavitmTakvim .takvimGunleri td span{padding: 5px; display: block;}
+.mavitmTakvim .takvimGunleri td span.izinsiz{background-color:#CCC; color:#a3a5a1; cursor:default !important;}
+.mavitmTakvim .takvimGunleri td span.izinli:hover{
+    color: #FFFFFF;
+    background: rgb(122,188,255);
+    background: -moz-linear-gradient(top,  rgba(122,188,255,1) 0%, rgba(96,171,248,1) 44%, rgba(64,150,238,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(122,188,255,1)), color-stop(44%,rgba(96,171,248,1)), color-stop(100%,rgba(64,150,238,1)));
+    background: -webkit-linear-gradient(top,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
+    background: -o-linear-gradient(top,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
+    background: linear-gradient(to bottom,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 );
+}
+/**/
+
+/*---END---/
+.mavitmTakvim{width:280px; font-size:12px; background-color:#FFF; position: absolute; z-index: 99999;  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);}
+.mavitmTakvim span, .takvimControl{cursor: pointer;}
+.mavitmTakvim table{width: 100%;border-collapse: collapse; border-spacing: 0;}
+.mavitmTakvim .takvimHead, .mavitmTakvim .takvimFooter{
+    border: 1px solid #dddddd;
+    height: 35px;
+    padding:5px 8px;
+    background: #ebe9f9;
+    background: -moz-linear-gradient(top,  #ebe9f9 0%, #d8d0ef 50%, #cec7ec 51%, #c1bfea 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebe9f9), color-stop(50%,#d8d0ef), color-stop(51%,#cec7ec), color-stop(100%,#c1bfea));
+    background: -webkit-linear-gradient(top,  #ebe9f9 0%,#d8d0ef 50%,#cec7ec 51%,#c1bfea 100%);
+    background: -o-linear-gradient(top,  #ebe9f9 0%,#d8d0ef 50%,#cec7ec 51%,#c1bfea 100%);
+    background: -ms-linear-gradient(top,  #ebe9f9 0%,#d8d0ef 50%,#cec7ec 51%,#c1bfea 100%);
+    background: linear-gradient(to bottom,  #ebe9f9 0%,#d8d0ef 50%,#cec7ec 51%,#c1bfea 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#c1bfea',GradientType=0 );
+}
+.mavitmTakvim .takvimHead .takvimControl, .mavitmTakvim .takvimFooter .takvimControl{width: 50px; float: left; font-size: 11px; font-weight: bold; padding-top: 6px; }
+.mavitmTakvim .takvimHead .takvimileri, .mavitmTakvim .takvimFooter .takvimKapat{float: right; text-align: right;}
+.mavitmTakvim .takvimHead .mavitmSelectGroup{width: 160px; float: left;}
+.mavitmTakvim .takvimHead .mavitmSelectGroup select{float: left; width: 45%; padding:3px; float:left; border:1px solid #CCC;}
+.mavitmTakvim .takvimHead .mavitmSelectGroup select:last-child{float: right;}
+.mavitmTakvim .takvimHead{-webkit-border-radius: 5px 5px 0px 0px; border-radius: 5px 5px 0px 0px; }
+.mavitmTakvim .takvimFooter{-webkit-border-radius: 0px 0px 5px 5px;   border-radius: 0px 0px 5px 5px; }
+.mavitmTakvim .takvimGunleri{border-left: 1px solid #CCCCCC;}
+.mavitmTakvim .takvimGunleri th{ border-bottom: 1px solid #CCCCCC; border-right: 1px solid #CCC; background-color:#EBEBEB; color:#000; text-align: center; padding:5px;}
+.mavitmTakvim .takvimGunleri td{border-bottom: 1px solid #CCC; border-right: 1px solid #CCC; text-align:center;}
+.mavitmTakvim .takvimGunleri td span{padding: 5px; display: block;}
+.mavitmTakvim .takvimGunleri td span.izinsiz{background-color:#CCC; color:#a3a5a1; cursor:default !important;}
+.mavitmTakvim .takvimGunleri td span.izinli:hover{
+    color: #FFFFFF;
+    background: rgb(122,188,255);
+    background: -moz-linear-gradient(top,  rgba(122,188,255,1) 0%, rgba(96,171,248,1) 44%, rgba(64,150,238,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(122,188,255,1)), color-stop(44%,rgba(96,171,248,1)), color-stop(100%,rgba(64,150,238,1)));
+    background: -webkit-linear-gradient(top,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
+    background: -o-linear-gradient(top,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
+    background: linear-gradient(to bottom,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 );
+}
+/**/
+
+/*---END---/
+.mavitmTakvim{width:280px; font-size:12px; background-color:#FFF; position: absolute; z-index: 99999;  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);}
+.mavitmTakvim span, .takvimControl{cursor: pointer;}
+.mavitmTakvim table{width: 100%;border-collapse: collapse; border-spacing: 0;}
+.mavitmTakvim .takvimHead, .mavitmTakvim .takvimFooter{
+    border: 1px solid #dddddd;
+    height: 35px;
+    padding:5px 8px;
+}
+.mavitmTakvim .takvimHead .takvimControl, .mavitmTakvim .takvimFooter .takvimControl{width: 50px; float: left; font-size: 11px; font-weight: bold; padding-top: 6px; }
+.mavitmTakvim .takvimHead .takvimileri, .mavitmTakvim .takvimFooter .takvimKapat{float: right; text-align: right;}
+
+.mavitmTakvim .takvimHead .mavitmSelectGroup{
+    width: 160px; height: 48px; padding: 10px; float: left;-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    margin-top: -20px;
+    background: rgb(122,188,255);
+    background: -moz-linear-gradient(top,  rgba(122,188,255,1) 0%, rgba(96,171,248,1) 44%, rgba(64,150,238,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(122,188,255,1)), color-stop(44%,rgba(96,171,248,1)), color-stop(100%,rgba(64,150,238,1)));
+    background: -webkit-linear-gradient(top,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
+    background: -o-linear-gradient(top,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
+    background: linear-gradient(to bottom,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 );
+    -webkit-border-radius: 5px 5px 0px 0px; border-radius: 5px 5px 0px 0px;
+}
+.mavitmTakvim .takvimHead .mavitmSelectGroup select{float: left; width: 45%; padding:3px; float:left; border:1px solid #CCC;}
+.mavitmTakvim .takvimHead .mavitmSelectGroup select:last-child{float: right;}
+
+.mavitmTakvim .takvimHead{-webkit-border-radius: 5px 5px 0px 0px; border-radius: 5px 5px 0px 0px;}
+.mavitmTakvim .takvimFooter{-webkit-border-radius: 0px 0px 5px 5px;   border-radius: 0px 0px 5px 5px;}
+
+.mavitmTakvim .takvimGunleri{border-left: 1px solid #CCCCCC;}
+.mavitmTakvim .takvimGunleri th{ border-bottom: 1px solid #4599F0; border-right: 1px solid #4599F0; background-color:#70B5FC; color:#FFF; text-align: center; padding:5px;}
+.mavitmTakvim .takvimGunleri td{border-bottom: 1px solid #4599F0; border-right: 1px solid #4599F0; text-align:center;}
+.mavitmTakvim .takvimGunleri td span{padding: 5px; display: block;}
+.mavitmTakvim .takvimGunleri td span.izinsiz{background-color:#1a77a4; color:#1e8bc2; cursor:default !important;}
+.mavitmTakvim .takvimGunleri td span.izinli{
+    color: #FFFFFF;
+    background: rgb(122,188,255);
+    background: -moz-linear-gradient(top,  rgba(122,188,255,1) 0%, rgba(96,171,248,1) 44%, rgba(64,150,238,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(122,188,255,1)), color-stop(44%,rgba(96,171,248,1)), color-stop(100%,rgba(64,150,238,1)));
+    background: -webkit-linear-gradient(top,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
+    background: -o-linear-gradient(top,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
+    background: linear-gradient(to bottom,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 );
+}
+
+.mavitmTakvim .takvimHead, .mavitmTakvim .takvimFooter, .mavitmTakvim .takvimGunleri td span.izinli:hover{
+    background: rgb(255,175,75);
+    background: -moz-linear-gradient(top,  rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,175,75,1)), color-stop(100%,rgba(255,146,10,1)));
+    background: -webkit-linear-gradient(top,  rgba(255,175,75,1) 0%,rgba(255,146,10,1) 100%);
+    background: -o-linear-gradient(top,  rgba(255,175,75,1) 0%,rgba(255,146,10,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(255,175,75,1) 0%,rgba(255,146,10,1) 100%);
+    background: linear-gradient(to bottom,  rgba(255,175,75,1) 0%,rgba(255,146,10,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a',GradientType=0 );
+}

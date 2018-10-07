@@ -1,0 +1,98 @@
+{% load static %}
+<header id="header">
+    <section class="wel-t-band">
+        <div class="container">
+            <div class="row wel-band-bg">
+                <div class="col-md-6 pull-left col col-sm-12 brandTopLeft">
+                    <p>We help you communicate. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row pad-logo logo-wrapper">
+            <div class="col-lg-4 col-md-3 col-sm-12 col-xs-12 t-logo"><a href="{% url 'home-page' %}"><img
+            src="{% static 'images/logo/logo_1.png' %}" alt="Turkuaz Cable" class="img-responsive"></a></div>
+            <div class="col-lg-8 col-md-9 col-sm-12 col-xs-12 text-right">
+                <div class="top-two-right">
+                    <div class="top-panel">
+                        <div class="touch_top touch_top_pad">
+                            <ul class="nav">
+                                <li class="item item-phone">
+                                    <div class="media">
+                                        <div class="blue-color media-left"><a href="tel://+90 262 751 31 00"><i
+                                        class="icon icon-Phone2"></i></a></div>
+                                        <div class="media-body">
+                                            <p><a href="tel://+44(0)2039500032">+44(0)2039500032</a></p>
+                                            <p><a href="mailto:info@turkuazcable.com">info@ransommary.co.uk</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item item-phone">
+                                <div class="media">
+                                    <div class="blue-color media-left"><a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=40.866642,+29.446350&aq=&sll=37.0625,-95.677068&sspn=41.903538,106.787109&vpsrc=0&ie=UTF8&t=m&z=16&iwloc=A" target="_blank"><i class="icon icon-Pointer"></i></a></div>
+                                    <div class="media-body">
+                                        <p>
+                                            <a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=40.866642,+29.446350&aq=&sll=37.0625,-95.677068&sspn=41.903538,106.787109&vpsrc=0&ie=UTF8&t=m&z=16&iwloc=A" target="_blank">Ransom Mary Limited Unit G-19 Barking Enterprise Centre 50 Wakering Road London IG11 8GN</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main_menu menu_fixed nav-home-three">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-6 mobil-logo-z">
+                <div class="mobile-link logo">
+                    <a href="{% url 'home-page' %}">
+                    <img src="{% static 'images/ayarlar/turkuaz-kablo-logo-m-en.png' %}" alt="Turkuaz Cable"></a>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="nav-menu pull-left text-left">
+                <div class="nav-t-holder pull-left text-left">
+                    <div class="nav-t-header">
+                        <button><i class="fa fa-bars"></i></button>
+                    </div>
+                    <div class="nav-t-footer">
+                        <ul class="nav">
+                            <li class="tk-menu-sol"><a href="{% url 'home-page' %}"><i class="fa fa-home"
+                            aria-hidden="true"></i></a></li>
+                            <li class="has-t-submenu"><a href="en/company-profile.html" onclick="return true;">About
+                            Us </a>
+                            <div style="clear:both"></div>
+                            <ul class="submenu" role="menu">
+                                <li><a href="{% url 'company-profile' %}">Company Profile </a></li>
+                                <li><a href="{% url 'company-mission-vision' %}">Mission - Vision </a></li>
+                            </ul>
+                        </li>
+                        <li class="has-t-submenu"><a href="{% url 'category-list' %}" onclick="return true;">Products</a>
+                        <div style="clear:both"></div>
+                        <ul class="submenu" role="menu">
+                            {% for category in categories %}
+                            <li><a href="{% url 'category-detail' category.slug %}">{{ category.name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                    <li><a href="{% url 'brand-list' %}">Brands</a></li>
+                    <li><a href="{% url 'contact-us' %}">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>

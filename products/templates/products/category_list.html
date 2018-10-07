@@ -1,0 +1,59 @@
+{% extends 'products/base.html' %}
+{% load static %}
+{% block content %}
+<section class="inner-banner2 clearfix" style="display:none">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div style="font-size:25px; font-weight:normal;color:#fff; text-align:left; text-shadow:0px -1px 1px #000; padding-top:15px; margin-left:-15px;">
+                    <div class="container">Products</div>
+                </div>
+                <div style="font-size:14px;font-style:italic;"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="page-banner-section mc-breadcrumb inner-banner2">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="row">
+                    <h2 class="h2-breadcrumb">
+                        <div class="container">Products</div>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<style>
+    #cssmenu ul>li>ul {
+        display: none;
+    }
+</style>
+<section class="padding-vertical-30">
+    <div class="container">
+        <div class="row">
+            {% include 'products/partials/products_sidebar.html' %}
+            <div class="col-md-9 ">
+                <div class="col-sm-12">
+                	{% for category in categories %}
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <br />
+                        <a href="{% url 'category-detail' category.slug %}" class="img-responsive"><img src="{{ category.image.url }}" class="product-list__image" alt="{{ category.name }}" style="width:100%"></a>
+                        <a href="{% url 'category-detail' category.slug %}">
+                            <h5 style="font-weight: bold;">{{ category.name }}</h5>
+                        </a>
+                    </div>
+                    {% endfor %}
+                    <div style="clear:both"></div>
+                    <div id="light-pagination" class="pagination light-theme simple-pagination">
+                        <ul></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% include 'products/partials/contact_us.html' %}
+{% endblock %}

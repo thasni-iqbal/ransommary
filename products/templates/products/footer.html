@@ -1,0 +1,68 @@
+{% load static %}
+<footer class="sec-padding footer-bg footer-bg3">
+    <div class="container clearfix">
+        <div class="row">
+            <div class="widget about-us-widget col-md-2 col-sm-6"><a href="{% url 'home-page' %}"><img src="{% static 'images/logo/logo_2.png' %}"
+            alt="Turkuaz Cable"></a>
+            <ul class="nav">
+                <a class="social-ikon" href="http://www.facebook.com/turkuazkabloas" target="_blank"><i
+                    class="fa fa-facebook"></i></a> <a class="social-ikon" href="http://www.twitter.com/turkuazcable" target="_blank"><i class="fa fa-twitter"></i></a><a class="social-ikon  social-migration" href="http://www.instagram.com/turkuazkablo"
+                target="_blank"><i class="fa fa-instagram"></i></a><a class="social-ikon  social-migration" href="http://www.linkedin.com/company/turkuaz-cable" target="_blank"><i
+            class="fa fa-linkedin"></i></a></ul>
+        </div>
+        <div class="widget widget-links col-md-2 col-sm-6">
+            <h4 class="widget_title">Corporate</h4>
+            <div class="widget-contact-list row m0">
+                <ul>
+                    <li><a href="{% url 'company-profile' %}">About Us</a></li>
+                    <li><a href="{% url 'category-list' %}">Products</a></li>
+                    <li><a href="{% url 'brand-list' %}">Brands</a></li>
+                    <li><a href="{% url 'contact-us' %}">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="widget widget-links col-md-4 col-sm-6">
+            <h4 class="widget_title">Products</h4>
+            <div class="widget-contact-list row m0">
+                <ul>
+                    {% for category in categories %}
+                    <li><a href="{% url 'category-detail' category.slug %}">{{ category.name }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="widget widget-contact col-md-4 col-sm-6">
+            <h4 class="widget_title">Contact Us</h4>
+            <div class="widget-contact-list row m0">
+                <ul>
+                    <li>
+                        <a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=40.866642,+29.446350&aq=&sll=37.0625,-95.677068&sspn=41.903538,106.787109&vpsrc=0&ie=UTF8&t=m&z=16&iwloc=A" target="_blank">
+                            <i class="fa fa-map-marker"></i>
+                            <div class="fleft location_address">Ransom Mary Limited Unit G-19 Barking Enterprise Centre 50 Wakering Road London IG11 8GN</div>
+                        </a>
+                    </li>
+                    <div class="clearfix"></div>
+                    <li><a href="tel://+44(0)2039500032">
+                        <i class="fa fa-phone"></i>
+                        <div class="fleft contact_no">+44(0)2039500032</div>
+                    </a>
+                </li>
+                <div class="clearfix"></div>
+                <li><a href="mailto:info@turkuazcable.com">
+                    <i class="fa fa-envelope-o"></i>
+                    <div class="fleft contact_mail custom_email">info@ransommary.co.uk</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+</div>
+</div>
+</footer>
+<section class="footer-t-bottom footer-bottom footer-bottom3">
+<div class="container clearfix">
+<div class="pull-left fo-txt">
+<p>Copyright © {% now 'Y' %} Ransom Mary Ltd.</p>
+</div>
+</div>
+</section>
