@@ -26,7 +26,7 @@ SECRET_KEY = '7rgte3rk@66x@a(*=f53ce6t6k#9!wd0wb8e=s1p3n@$dcs9xs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.241.137.114', 'ransommary.co.uk', 'www.ransommary.co.uk', 'localhost']
 
 
 # Application definition
@@ -77,12 +77,12 @@ WSGI_APPLICATION = 'ransommary.wsgi.application'
 
 DATABASES = {
         'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'ransommary',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
         'USER': 'ransommary',
-        'PASSWORD': 'sam16Rocks',
+        'PASSWORD': 'samRocks',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
@@ -124,9 +124,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static")
-]
-
+    os.path.join(BASE_DIR, "static"),
+    ]
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
