@@ -26,7 +26,7 @@ SECRET_KEY = '7rgte3rk@66x@a(*=f53ce6t6k#9!wd0wb8e=s1p3n@$dcs9xs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['198.199.87.247', 'ransommary.co.uk', 'www.ransommary.co.uk']
+ALLOWED_HOSTS = ['1192.241.137.114', 'ransommary.co.uk', 'www.ransommary.co.uk', 'localhost']
 
 
 # Application definition
