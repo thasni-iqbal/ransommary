@@ -10,9 +10,20 @@
             <div id="cssmenu">
                 <ul>
                 {% for category in categories %}
-                    <li>
-                        <a id="a31" href="{% url 'category-detail' category.slug %}">{{ category.name }}<span style="float:right; margin-right:5px;"></span></a>
-                    </li>
+                    <li class="{% if category.subcategory_set.all %}has-sub{% endif %}">
+                        <a id="{% url 'category-detail' category.slug %}">{{ category.name }}
+                            {% if category.subcategory_set.all %}
+                                <span style="float:right; margin-right:5px;">
+                                <i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                            {% endif %}</a>
+                    {% if category.subcategory_set.all %}
+                        <ul>
+                        {% for subcategory in category.subcategory_set.all %}
+                            <li><a href="{% url 'product-list' category.slug subcategory.slug %}">{{ subcategory.name }}</a></li>
+                        {% endfor %}
+                        </ul>
+                    {% endif %}
+                   </li>
                  {% endfor %}  
                 </ul>
             </div>

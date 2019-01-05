@@ -9,5 +9,6 @@ urlpatterns = [
     path('contact-us', views.ContactUsPageView.as_view(), name='contact-us'),
     path('categories', views.CategoryListView.as_view(), name='category-list'),
     re_path(r'^category/(?P<slug>[\w-]+)/$', views.category_detail, name='category-detail'),
+    re_path(r'^(?P<category_slug>[\w-]+)/(?P<slug_subcategory>[\w-]+)/$', views.ProductListView.as_view(), name='product-list'),
     path('brand', views.BrandListView.as_view(), name='brand-list'),
 ]

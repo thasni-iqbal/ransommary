@@ -485,7 +485,10 @@ jQuery(document).on('ready', function() {
 							$('.panel h4.panel-title').removeClass('on');
 								$(this).toggleClass('on');
 						}  
-				})
+				});
+				$('.has-sub').click(function () {
+					$(this).find('ul').slideToggle();
+                })
 		})(jQuery);
 });
 

@@ -37,13 +37,12 @@
             {% include 'products/partials/products_sidebar.html' %}
             <div class="col-md-9 ">
                 <div class="col-sm-12">
-                	{% for category in categories %}
+                    <h3>{{ subcategory.name }}</h3>
+                	{% for product in products %}
                     <div class="col-xs-12 col-sm-6 col-md-6">
                         <br />
-                        <a href="{% url 'category-detail' category.slug %}" class="img-responsive"><img src="{{ category.image.url }}" class="product-list__image" alt="{{ category.name }}" style="width:100%"></a>
-                        <a href="{% url 'category-detail' category.slug %}">
-                            <h5 style="font-weight: bold;">{{ category.name }}</h5>
-                        </a>
+                        <img src="{{ product.image.url }}" class="product-list__image" alt="{{ product.name }}" style="width:100%"></a>
+                        <h5 style="font-weight: bold;">{{ product.name }}</h5>
                     </div>
                     {% endfor %}
                 </div>

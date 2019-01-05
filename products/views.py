@@ -30,6 +30,24 @@ class CategoryListView(ListView):
     context_object_name = 'categories'
 
 
+class ProductListView(ListView):
+    model = Product
+    template_name = "products/list_view.html"
+    context_object_name = 'products'
+
+    def get_queryset(self):
+        qs = self.model.objects.all()
+        if self.kwargs.get('slug_subcategory'):
+            qs = qs.filter(subcategory__slug=self.kwargs['slug_subcategory'])
+        return qs
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['categories'] = Category.objects.all()
+        context['subcategory'] = get_object_or_404(SubCategory, slug=self.kwargs['slug_subcategory'])
+        return context
+
+
 class BrandListView(ListView):
     model = Brand
     context_object_name = 'brands'
