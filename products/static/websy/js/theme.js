@@ -486,10 +486,7 @@ jQuery(document).on('ready', function() {
 								$(this).toggleClass('on');
 						}  
 				});
-				$('.has-sub').click(function () {
-					$(this).find('ul').slideToggle();
-					
-                })
+
 		})(jQuery);
 });
 
