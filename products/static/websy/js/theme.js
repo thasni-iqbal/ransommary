@@ -488,6 +488,7 @@ jQuery(document).on('ready', function() {
 				});
 				$('.has-sub').click(function () {
 					$(this).find('ul').slideToggle();
+					
                 })
 		})(jQuery);
 });
