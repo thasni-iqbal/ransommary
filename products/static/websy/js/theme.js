@@ -435,7 +435,7 @@ function bootstrapAnimatedLayer() {
 
 		//Initialize carousel 
 		$myCarousel.carousel({
-				interval: 7000
+				interval: 3000
 		});
 
 		//Animate captions in first slide on page load 

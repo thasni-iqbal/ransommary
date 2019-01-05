@@ -1,2 +1,4 @@
 media
-
+ransommary/**/*.pyc
+products/**/*.pyc
+.idea

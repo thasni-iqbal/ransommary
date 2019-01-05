@@ -40,3 +40,12 @@ class Brand(models.Model):
 		super(Brand, self).save()
 
 
+class Banner(models.Model):
+	name = models.CharField(max_length=100)
+	image = models.ImageField(upload_to='documents/banner')
+
+	class Meta:
+		verbose_name_plural = "banners"
+
+	def __str__(self):
+		return self.name
