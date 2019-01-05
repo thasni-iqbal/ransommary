@@ -1,0 +1,97 @@
+.js-network .nav-home-three {
+    background: linear-gradient(to top, darkred 0%, darkred 100%);
+    position: relative;
+}
+.js-network .touch_top ul .item .media .blue-color a i {
+    color: black;
+}
+
+.js-network .we-offer-cont2 {
+    border-left: 3px solid darkred;
+}
+
+.js-network .galeri-thumb p{
+     color: darkred;
+     border-left: 2px solid gray;
+}
+.js-network .social-ikon{
+     background: gray;
+}
+
+.js-network  .nav-holder .nav-footer ul.nav > li.active a {
+    color: gray;
+}
+
+ .js-network .section_header h2:before {
+    background: gray;
+}
+
+ .js-network .service-info a h4 {
+    border-bottom: 2px solid darkred;
+}
+
+.js-network .widget-contact h4:after,
+.js-network .get-in-touch h4:after,
+.js-network .widget-links h4:after {
+    background: darkred;
+}
+.js-network .footer-bottom .fo-txt p a:hover {
+    color: gray;
+}
+
+.js-network .about-tab-box .single-tab-content h2:before {
+    background: gray;
+}
+
+.js-network .nav-t-holder .nav-t-footer ul.nav > li:hover a, .nav-t-holder .nav-t-footer ul.nav > li.active a {
+    color: gray;
+}
+
+.js-network .section_header2 h2:before {
+    background: darkred;
+}
+
+.js-network .footer-bg3 {
+        border-top: 2px solid darkred;
+}
+
+.js-network .nav-t-holder .nav-t-footer ul.nav > li ul.submenu li:hover > a {
+    background: gray;
+}
+.js-network .footer-t-bottom {
+    background: black;
+}
+.js-network .submit:before {
+    background-color: darkred;
+}
+.js-network .submit:hover {
+
+    color: #FFFFFF;
+
+}
+.js-network .widget-contact h4, .js-network .get-in-touch h4, .js-network .widget-links h4 {
+    color: #000;
+}
+.js-network .sub-ul .sub-li:first-child {
+    background-color: darkred;
+}
+.js-network #cssmenu > ul > li > a {
+    border-top: 1px solid white;
+    background: grey;
+}
+.js-network .btn-dokuman {
+    background: darkred;
+}
+.js-network .turkuaz-icerik big, .js-network .detailText big {
+    color: black;
+    border-left-color: darkred;
+}
+.js-network .contact-block-content a {
+    color: darkred;
+}
+.js-network .contactus-button2 a {
+    background: black;
+}
+.js-network .widget-contact-list ul li i {
+    color: black;
+}

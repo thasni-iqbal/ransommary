@@ -76,7 +76,7 @@ class CompanyVisionPageView(TemplateView):
         return context
 
 
-class ContactUsPageView(View):
+class ContactUsPageView(TemplateView):
     template_name = "products/contact_us.html"
 
     def get_context_data(self, **kwargs):

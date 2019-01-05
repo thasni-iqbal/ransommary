@@ -12,7 +12,7 @@
     <div class="container">
         <div class="row pad-logo logo-wrapper">
             <div class="col-lg-4 col-md-3 col-sm-12 col-xs-12 t-logo"><a href="{% url 'home-page' %}"><img
-            src="{% static 'images/logo/logo_1.png' %}" alt="Ramsomary Limited" class="img-responsive"></a></div>
+            src="{% static config.logo_primary %}" alt="Ramsomary Limited" class="img-responsive"></a></div>
             <div class="col-lg-8 col-md-9 col-sm-12 col-xs-12 text-right">
                 <div class="top-two-right">
                     <div class="top-panel">
@@ -20,11 +20,11 @@
                             <ul class="nav">
                                 <li class="item item-phone">
                                     <div class="media">
-                                        <div class="blue-color media-left"><a href="tel://+90 262 751 31 00"><i
+                                        <div class="blue-color media-left"><a href="tel://{{ config.phone }}"><i
                                         class="icon icon-Phone2"></i></a></div>
                                         <div class="media-body">
-                                            <p><a href="tel://+44(0)2039500032">+44(0)2039500032</a></p>
-                                            <p><a href="mailto:info@ransommary.co.uk">info@ransommary.co.uk</a>
+                                            <p><a href="tel://{{ config.phone }}">{{ config.phone }}</a></p>
+                                            <p><a href="mailto:info@ransommary.co.uk">{{ config.email }}</a>
                                         </p>
                                     </div>
                                 </div>
@@ -34,7 +34,7 @@
                                     <div class="blue-color media-left"><a href="https://goo.gl/maps/1Vxnwn8xUT72" target="_blank"><i class="icon icon-Pointer"></i></a></div>
                                     <div class="media-body">
                                         <p>
-                                            <a href="https://goo.gl/maps/1Vxnwn8xUT72" target="_blank">Ransom Mary Limited Unit G-19 Barking Enterprise Centre 50 Wakering Road London IG11 8GN</a>
+                                            <a href="https://goo.gl/maps/1Vxnwn8xUT72" target="_blank">{{ config.address }}</a>
                                         </p>
                                     </div>
                                 </div>

@@ -3,7 +3,7 @@
 <html lang='en'>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Ransom Mary Limited</title>
+    <title>{{ config.company }}</title>
     <meta name="keywords" content="Ramsomary Limited"/>
     <meta name="description" content="Ransom Mary is one of the IT equipment supplier with an extensive network of vendors and partners. Ransom Mary provides all equipments as per customer expectation in terms of performance, delivery and cost" />
     <meta name="robots" content="index, follow" />
@@ -79,8 +79,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/favicon/favicon-16x16.png' %}">
     <link rel="manifest" href="{% static 'images/favicon/manifest.json' %}">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700&amp;subset=latin-ext" rel="stylesheet">
+    <link href="{% static 'css/style_jsnetwork.css' %}" rel="stylesheet" />
+
 </head>
-<body>
+<body class="{% if 'jsnetwork.co.uk' in config.hostname %}js-network{% endif %}">
 {% include 'products/header.html' %}
 {% block content %}
 {% endblock %}
