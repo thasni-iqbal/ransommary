@@ -95,3 +95,6 @@
 .js-network .widget-contact-list ul li i {
     color: black;
 }
+.js-network .service-info h6 a, .service-info p a {
+    color: darkred;
+}
