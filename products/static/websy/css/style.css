@@ -634,7 +634,14 @@ body {
 
 .touch_top ul .item-phone {
 
-    width: 46%;
+    width: 60%;
+
+    padding: 0 0 0 4%;
+
+}
+.touch_top ul .item-phone:first-child {
+
+    width: 40%;
 
     padding: 0 0 0 4%;
 
@@ -3362,7 +3369,6 @@ img {
     padding-top: 5px;
 
     line-height: 18px;
-
 }
 
 .widget.widget-contact ul li .fleft {
@@ -3390,6 +3396,7 @@ img {
 .widget.widget-contact ul li i.fa-map-marker {
 
     padding-top: 22px;
+
 
 }
 
