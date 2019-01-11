@@ -98,3 +98,17 @@
 .js-network .service-info h6 a, .service-info p a {
     color: darkred;
 }
+
+ @media (max-width: 1100px) {
+
+     .js-network .nav-t-holder > .nav-t-footer {
+         background: #808080;
+     }
+
+     .js-network .nav-t-footer ul.nav > li > a {
+         border-bottom: 1px solid #FFFFFF !important
+     }
+     .js-network .nav-t-holder > .nav-t-footer ul.nav > li:hover > a {
+         background: darkred;
+     }
+ }
