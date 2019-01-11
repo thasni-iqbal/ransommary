@@ -1,5 +1,6 @@
 site_config = {
     'default': {
+        'id': 'ransommary',
         'hostname': 'ransommary.co.uk',
         'company': 'Ransom Mary Limited',
         'logo_primary': 'images/logo/logo_1.png',
@@ -9,6 +10,7 @@ site_config = {
         'email': 'info@ransommary.co.uk',
     },
     'jsnetwork': {
+        'id': 'jsnetwork',
         'hostname': 'jsnetwork.co.uk',
         'company': 'JS Network Limited',
         'logo_primary': 'images/logo/jsnetwork_logo_1.png',
